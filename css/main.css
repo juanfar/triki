@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*****************************************/
+
+
+/*****************************************/
+
+body {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background: #34495e;
+}
+
+#content: {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#game {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#game h1 {
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+	text-align: center;
+}
+
+#content_board {
+	text-align: center;
+}
+
+#board {
+	width: auto;
+	position: relative;
+	padding: 3px 0 0 3px;
+}
+
+#rows {
+	width: 100%;
+	padding: 0;
+}
+
+#board .row .cell {
+	padding: 0;
+	border: 2px solid white;
+	margin: -3px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+}
+
+#board .row .cell:hover {
+	background: #081d36;
+	-webkit-filter: brightness(500%);
+	filter: brightness(500%);
+}
+
+
+#board .row .cell img {
+	position: absolute;
+	width: 70%;
+	top: 15%;
+	left: 15%;
+}
+
+#players {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#p1, #p2 {
+	display: inline-block;
+	margin: 0;
+	/*background: #02154d;*/
+	padding: 0 10px 0 10px;
+	border-radius: 3px;
+}
+
+.espacio {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+.brillo {
+	text-shadow: -1px 1px 10px #ffc, 1px -1px 10px #fff;
+}
+
+#creditos {
+	font-family: 'arial';
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	opacity: 0.5;
+}
+#menu {
+	font-family: 'Lato';
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+.turno {
+	font-size: 9px;
+	opacity: 0.5;
+}
